@@ -1,27 +1,26 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu de casa...... você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
+        enunciado: "Sua tarefa é invadir uma estação de pesquisa no Ártico que, supostamente, detém a chave para restabelecer a comunicação global e talvez entender o que está acontecendo. Você chega à estação e encontra dois possíveis caminhos:
             {
-                texto: "Isso é assustador!",
+                texto: "Invadir a porta da frente, usando força bruta e armamento pesado.",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "Após uma intensa troca de tiros, você invade a sala de controle. Os técnicos estão apavorados, mas um deles, antes de ser atingido, envia uma mensagem criptografada para um destino desconhecido.",
+                   
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Entrar furtivamente pelos dutos de ventilação, evitando guardas e câmeras.",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Você se esgueirou pelos dutos e chegou à sala principal de controle da estação. Os técnicos estão trabalhando franticamente, mas você percebe que eles não estão tentando restabelecer a comunicação, e sim enviando uma mensagem criptografada para um destino desconhecido.",
+                    
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A mensagem contém apenas uma coordenada. O que você faz?",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
@@ -170,4 +169,5 @@ export const perguntas = [
             },
         ]
     }
+
 ];
