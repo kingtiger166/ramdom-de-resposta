@@ -1,22 +1,21 @@
 export const perguntas = [
     {
-        enunciado: "Sua tarefa é invadir uma estação de pesquisa no Ártico que, supostamente, detém a chave para restabelecer a comunicação global e talvez entender o que está acontecendo. Você chega à estação e encontra dois possíveis caminhos:
+        enunciado: "Sua tarefa é invadir uma estação de pesquisa no Ártico que, supostamente, detém a chave para restabelecer a comunicação global e talvez entender o que está acontecendo. Você chega à estação e encontra dois possíveis caminhos:",
+        alternativas: [
             {
                 texto: "Invadir a porta da frente, usando força bruta e armamento pesado.",
                 afirmacao: [
-                    "Após uma intensa troca de tiros, você invade a sala de controle. Os técnicos estão apavorados, mas um deles, antes de ser atingido, envia uma mensagem criptografada para um destino desconhecido.",
-                   
+                    "Após uma intensa troca de tiros, você invade a sala de controle. Os técnicos estão apavorados, mas um deles, antes de ser atingido, envia uma mensagem criptografada para um destino desconhecido."
                 ],
-                proxima: 1,
+                proxima: 1
             },
             {
                 texto: "Entrar furtivamente pelos dutos de ventilação, evitando guardas e câmeras.",
                 afirmacao: [
-                    "Você se esgueirou pelos dutos e chegou à sala principal de controle da estação. Os técnicos estão trabalhando franticamente, mas você percebe que eles não estão tentando restabelecer a comunicação, e sim enviando uma mensagem criptografada para um destino desconhecido.",
-                    
+                    "Você se esgueirou pelos dutos e chegou à sala principal de controle da estação. Os técnicos estão trabalhando franticamente, mas você percebe que eles não estão tentando restabelecer a comunicação, e sim enviando uma mensagem criptografada para um destino desconhecido."
                 ],
-                proxima: 2,
-            },
+                proxima: 2
+            }
         ]
     },
     {
@@ -29,7 +28,7 @@ export const perguntas = [
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
                     "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
-                proxima: 3,
+                proxima: 3
             },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
@@ -38,8 +37,8 @@ export const perguntas = [
                     "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
                     "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
-                proxima: 4,
-            },
+                proxima: 4
+            }
         ]
     },
     {
@@ -52,7 +51,7 @@ export const perguntas = [
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
                     "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
-                proxima: 3,
+                proxima: 3
             },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
@@ -61,8 +60,8 @@ export const perguntas = [
                     "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
                     "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
-                proxima: 4,
-            },
+                proxima: 4
+            }
         ]
     },
     {
@@ -74,16 +73,16 @@ export const perguntas = [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
                     "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
-                proxima: 5,
+                proxima: 5
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
                     "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
-                proxima: 6,
-            },
+                proxima: 6
+            }
         ]
     },
     {
@@ -95,16 +94,16 @@ export const perguntas = [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
                     "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
-                proxima: 5,
+                proxima: 5
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
                     "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
-                proxima: 6,
-            },
+                proxima: 6
+            }
         ]
     },
     {
@@ -116,16 +115,16 @@ export const perguntas = [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
                     "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
-                proxima: 7,
+                proxima: 7
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
                     "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
-                proxima: 7,
-            },
+                proxima: 7
+            }
         ]
     },
     {
@@ -137,16 +136,16 @@ export const perguntas = [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
                     "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
-                proxima: 7,
+                proxima: 7
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
                     "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
-                proxima: 7,
-            },
+                proxima: 7
+            }
         ]
     },
     {
@@ -158,6 +157,7 @@ export const perguntas = [
                     "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
                     "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
                 ],
+                proxima: 8
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
@@ -166,8 +166,8 @@ export const perguntas = [
                     "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
                     "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
                 ],
-            },
+                proxima: 8
+            }
         ]
     }
-
 ];
